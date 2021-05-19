@@ -10,6 +10,8 @@ import { FristprogetComponent } from './fristproget-component/fristproget-compon
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from "@angular/fire"; 
 import { AngularFirestoreModule } from "@angular/fire/firestore";
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { AngularFirestoreModule } from "@angular/fire/firestore";
     LoginComponent,
     HomeComponent,
     UserComponent,
-    FristprogetComponent
+    FristprogetComponent,
+    NavbarComponent,
+    FooterComponent,
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebase), 
