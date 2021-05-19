@@ -1,41 +1,34 @@
-
 <div style="height: 250px;"></div>
+
 <table class="table table-striped table-dark">
     <thead>
-      <tr>
-        <th scope="col">Nome</th>
-        <th scope="col">Cognome</th>
-        <th scope="col">Email</th>
-        <th scope="col">Data di Nascita</th>
-      </tr>
+        <button type="button" class="btn btn-outline-dark" routerLink="/pro2/create">Create</button>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Cognome</th>
+            <th scope="col">Email</th>
+            <th scope="col">Data di Nascita</th>
+            <th scope="col">Acticn</th>
+        </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Larry</td>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <td>Larry</td>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <td>Larry</td>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-      </tr>
+        <tr>
+            <td>Larry</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>
+                <button type="button" class="btn btn-outline-primary">DELETE</button>
+                <button type="button" class="btn btn-outline-primary">EDIT</button>
+            </td>
+        </tr>
     </tbody>
-  </table>
- 
-  
-  <style type="text/css">
+</table>
+
+
+<style type="text/css">
     .table {
         margin: 0% auto;
         width: 60%;
     }
-    </style>
-
+</style>

@@ -12,6 +12,7 @@ import { AngularFireModule } from "@angular/fire";
 import { AngularFirestoreModule } from "@angular/fire/firestore";
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { UsercreatComponent } from './usercreat/usercreat.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { FooterComponent } from './footer/footer.component';
     FristprogetComponent,
     NavbarComponent,
     FooterComponent,
+    UsercreatComponent,
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebase), 

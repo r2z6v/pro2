@@ -4,12 +4,18 @@ import { FristprogetComponent } from './fristproget-component/fristproget-compon
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { UserComponent } from './user/user.component';
+import { UsercreatComponent } from './usercreat/usercreat.component';
 
-const routes: Routes = [{path: "", redirectTo: "login", pathMatch: "full"},
-{path: "login", component: LoginComponent},
-{path: "pro2", component : FristprogetComponent, children: [
-  {path : "home", component: HomeComponent},
-  {path: "user", component: UserComponent,}]}
+const routes: Routes = [{ path: "", redirectTo: "login", pathMatch: "full" },
+{ path: "login", component: LoginComponent },
+{
+  path: "pro2", component: FristprogetComponent, children: [
+    { path: "create", component: UsercreatComponent },
+    { path: "home", component: HomeComponent },
+    { path: "user", component: UserComponent }
+  ]
+},
+
 ];
 
 @NgModule({

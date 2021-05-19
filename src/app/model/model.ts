@@ -1,9 +1,6 @@
 export class persone {
-    nome : string ;
-    cognome : string ;
-    email : string ;
-    data_nascita: string;
+  public nome!: string;
+  public cognome!: string;
+  public email!: string;
+  public data_nascita!: string;
 }
-
-
-
